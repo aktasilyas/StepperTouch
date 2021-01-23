@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="369.0" style="-fx-background-color: #436bff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <AnchorPane layoutX="45.0" layoutY="246.0" prefHeight="58.0" prefWidth="287.0" style="-fx-background-color: #ffffff44; -fx-background-radius: 50px;">
+         <children>
+            <Label fx:id="numberLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="116.0" prefHeight="58.0" prefWidth="56.0" style="-fx-background-color: #fff; -fx-background-radius: 50px;" text="0" textFill="#436bff" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font></Label>
+            <JFXButton fx:id="eksibuton" layoutX="14.0" layoutY="10.0" prefHeight="31.0" prefWidth="48.0" text="-" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="artibuton" layoutX="225.0" layoutY="10.0" prefHeight="31.0" prefWidth="48.0" text="+" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
